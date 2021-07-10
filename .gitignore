@@ -1,41 +1,39 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+### Go ###
+# Binaries for programs and plugins
+.DS_Store
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.exe~
+*.dylib
+.*.swp
+*.log
+*.csproj
+*.sln
 
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+/Library/
+/obj/
+/Temp/
+
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+/vendor/
+/Godeps/
+/build/
+/Library/
+/obj/
+/Temp/
+/Assets/.vscode/
+/Assets/Resources/config.txt
+/Assets/3thLib/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+# filter files for build
+
+
+# filter goland auto files
+# .idea/workspace.xml
+# .idea/*
+.vs/*
+.vscode/*
